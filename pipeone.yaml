@@ -1,0 +1,3 @@
+steps:
+
+- template: main-template.yml
