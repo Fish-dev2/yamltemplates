@@ -1,4 +1,4 @@
-variables:
+parameters:
   number: ''
 steps:
 - script: echo "Hello from subtemplate ${{ parameters.number }}"

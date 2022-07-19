@@ -1,4 +1,4 @@
-variables:
+parameters:
   number: ''
 steps:
 - template: sub-template.yml
