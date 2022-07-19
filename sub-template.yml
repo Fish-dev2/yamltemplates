@@ -1,4 +1,4 @@
 parameters:
   number: ''
 steps:
-- script: echo "Hello from subtemplate $(number)"
+- script: echo "Hello from subtemplate $[number]"
