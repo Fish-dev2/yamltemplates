@@ -1,6 +1,7 @@
 parameters:
   number: ''
 variables:
-  numberfromparam: $[number]
+- name: 'numberforparam'
+  value: '$[parameters.number]'
 steps:
 - script: echo "Hello from subtemplate -- kapcsos - ${{ parameters.number }}, kerek - $(numberfromparam), szogletes - $[numberfromparam]"
