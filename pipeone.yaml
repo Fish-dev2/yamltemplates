@@ -4,4 +4,8 @@ variables:
 steps:
 
 - template: main-template.yml
+  parameters:
+    number: ${{ variables.Firstone }}
 - template: sub-template.yml
+  parameters:
+    number: ${{ variables.Secondone }}
