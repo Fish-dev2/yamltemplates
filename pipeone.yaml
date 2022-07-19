@@ -1,3 +1,6 @@
+variables:
+  Firstone: 1
+  Secondone: 2
 steps:
 
 - template: main-template.yml
