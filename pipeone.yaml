@@ -4,3 +4,4 @@ variables:
 steps:
 
 - template: main-template.yml
+- template: sub-template.yml
