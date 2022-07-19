@@ -2,4 +2,6 @@ parameters:
   number: ''
 steps:
 - template: sub-template.yml
+  parameters: 
+    number: ${{ parameters.number }}
 - script: echo "Hello from YAML Templates in Azure DevOps Pipelines ${{ parameters.number }}"
