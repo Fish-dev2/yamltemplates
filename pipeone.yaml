@@ -5,7 +5,7 @@ steps:
 
 - template: main-template.yml
   parameters:
-    number: ${{ variables.titkos }}
+    number: $(Titkos)
 - template: sub-template.yml
   parameters:
     number: ${{ variables.Secondone }}
