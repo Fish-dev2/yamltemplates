@@ -8,4 +8,4 @@ steps:
     number: $(Titkos)
 - template: sub-template.yml
   parameters:
-    number: ${{ System.TeamProject }}
+    number: $(System.TeamProject)
